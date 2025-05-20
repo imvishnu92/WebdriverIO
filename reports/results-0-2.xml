@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Demo Tests" timestamp="2025-05-20T21:03:05" time="1.18" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Demo Tests"/>
+      <property name="capabilities" value="chrome.136_0_7103_114.mac"/>
+      <property name="file" value="file://./test/specs/test1.js"/>
+    </properties>
+    <testcase classname="chrome.136_0_7103_114.mac.Demo_Tests" name="My First Test" time="1.179">
+      <system-out><![CDATA[
+COMMAND: POST /session/451df6d051f7f4d1108c23fe5565621f/element/f.9D65CC33298B3D639D78FE1415822C4A.d.3ED94E5E12B727A172FE0FC0D1B2ED73.e.32/clear - {}
+RESULT: {}
+COMMAND: POST /session/451df6d051f7f4d1108c23fe5565621f/element/f.9D65CC33298B3D639D78FE1415822C4A.d.3ED94E5E12B727A172FE0FC0D1B2ED73.e.32/value - {"text":"WebdriverIO"}
+RESULT: {"text":"WebdriverIO"}
+COMMAND: POST /session/451df6d051f7f4d1108c23fe5565621f/actions - {"actions":[{"id":"action1","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"pause","duration":10},{"type":"keyUp","value":""}]}]}
+COMMAND: DELETE /session/451df6d051f7f4d1108c23fe5565621f - {}
+RESULT: {"actions":[{"id":"action1","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"pause","duration":10},{"type":"keyUp","value":""}]}]}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

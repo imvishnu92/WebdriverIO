@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Demo tests" timestamp="2025-05-20T21:53:44" time="3.89" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Demo tests"/>
+      <property name="capabilities" value="chrome.136_0_7103_114.mac"/>
+      <property name="file" value="file://./test/specs/login.spec.js"/>
+    </properties>
+    <testcase classname="chrome.136_0_7103_114.mac.Demo_tests" name="Login test" time="3.889">
+      <system-out><![CDATA[
+COMMAND: POST /session/52b80f28ca1dfc1b10d364bbdec1f5ab/elements - {"using":"css selector","value":"#username"}
+RESULT: {"using":"css selector","value":"#username"}
+COMMAND: POST /session/52b80f28ca1dfc1b10d364bbdec1f5ab/element/f.45E34D9204D0BE782B213C1486D5B776.d.EAD47F2917F74010C31E3E375043FBA1.e.5/clear - {}
+RESULT: {}
+COMMAND: POST /session/52b80f28ca1dfc1b10d364bbdec1f5ab/element/f.45E34D9204D0BE782B213C1486D5B776.d.EAD47F2917F74010C31E3E375043FBA1.e.5/value - {"text":"tomsmith"}
+RESULT: {"text":"tomsmith"}
+COMMAND: POST /session/52b80f28ca1dfc1b10d364bbdec1f5ab/element/f.45E34D9204D0BE782B213C1486D5B776.d.EAD47F2917F74010C31E3E375043FBA1.e.6/clear - {}
+RESULT: {}
+COMMAND: POST /session/52b80f28ca1dfc1b10d364bbdec1f5ab/element/f.45E34D9204D0BE782B213C1486D5B776.d.EAD47F2917F74010C31E3E375043FBA1.e.6/value - {"text":"SuperSecretPassword!"}
+RESULT: {"text":"SuperSecretPassword!"}
+COMMAND: POST /session/52b80f28ca1dfc1b10d364bbdec1f5ab/element/f.45E34D9204D0BE782B213C1486D5B776.d.EAD47F2917F74010C31E3E375043FBA1.e.7/click - {}
+RESULT: {}
+COMMAND: POST /session/52b80f28ca1dfc1b10d364bbdec1f5ab/elements - {"using":"css selector","value":"#flash"}
+RESULT: {"using":"css selector","value":"#flash"}
+COMMAND: GET /session/52b80f28ca1dfc1b10d364bbdec1f5ab/element/f.45E34D9204D0BE782B213C1486D5B776.d.B42D43719EEC34CA9292104A00516DC1.e.14/text - {}
+RESULT: {}
+COMMAND: DELETE /session/52b80f28ca1dfc1b10d364bbdec1f5ab - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

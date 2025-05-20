@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Demo tests" timestamp="2025-05-20T21:03:05" time="5.176" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Demo tests"/>
+      <property name="capabilities" value="chrome.136_0_7103_114.mac"/>
+      <property name="file" value="file://./test/specs/login.spec.js"/>
+    </properties>
+    <testcase classname="chrome.136_0_7103_114.mac.Demo_tests" name="Login test" time="5.175">
+      <system-out><![CDATA[
+COMMAND: POST /session/6b37cb0835105017b21e8076d9e6580f/elements - {"using":"css selector","value":"#username"}
+RESULT: {"using":"css selector","value":"#username"}
+COMMAND: POST /session/6b37cb0835105017b21e8076d9e6580f/element/f.03AAC29742205FB6EB77B0523079C298.d.373D81D3F99CC999121EF3F0FEE765A6.e.113/clear - {}
+RESULT: {}
+COMMAND: POST /session/6b37cb0835105017b21e8076d9e6580f/element/f.03AAC29742205FB6EB77B0523079C298.d.373D81D3F99CC999121EF3F0FEE765A6.e.113/value - {"text":"tomsmith"}
+RESULT: {"text":"tomsmith"}
+COMMAND: POST /session/6b37cb0835105017b21e8076d9e6580f/element/f.03AAC29742205FB6EB77B0523079C298.d.373D81D3F99CC999121EF3F0FEE765A6.e.118/clear - {}
+RESULT: {}
+COMMAND: POST /session/6b37cb0835105017b21e8076d9e6580f/element/f.03AAC29742205FB6EB77B0523079C298.d.373D81D3F99CC999121EF3F0FEE765A6.e.118/value - {"text":"SuperSecretPassword!"}
+RESULT: {"text":"SuperSecretPassword!"}
+COMMAND: POST /session/6b37cb0835105017b21e8076d9e6580f/element/f.03AAC29742205FB6EB77B0523079C298.d.373D81D3F99CC999121EF3F0FEE765A6.e.120/click - {}
+RESULT: {}
+COMMAND: POST /session/6b37cb0835105017b21e8076d9e6580f/elements - {"using":"css selector","value":"#flash"}
+RESULT: {"using":"css selector","value":"#flash"}
+COMMAND: GET /session/6b37cb0835105017b21e8076d9e6580f/element/f.03AAC29742205FB6EB77B0523079C298.d.D6E1D44370A8E6FA5DF0ABB89D294407.e.229/text - {}
+RESULT: {}
+COMMAND: DELETE /session/6b37cb0835105017b21e8076d9e6580f - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
